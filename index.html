@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Establece la codificación de caracteres y el diseño de la página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashup de Restaurantes y Clima Local</title>
+    <!-- Enlaza con el archivo de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Título principal de la página -->
+        <h1>Mashup de Restaurantes y Clima Local</h1>
+        
+        <!-- Etiqueta y campo de entrada para la ubicación -->
+        <label for="location">Introduce tu ubicación (ciudad o dirección):</label>
+        <input type="text" id="location" placeholder="Ejemplo: Madrid, España">
+        
+        <!-- Botón para activar la búsqueda -->
+        <button onclick="getData()">Buscar</button>
+
+        <!-- Sección para mostrar el clima -->
+        <div id="weather">
+            <h2>Clima Actual:</h2>
+            <p id="temperature">Temperatura: --°C</p>
+            <p id="weatherCondition">Condición: --</p>
+        </div>
+
+        <!-- Sección para mostrar los restaurantes cercanos -->
+        <div id="restaurants">
+            <h2>Restaurantes Cercanos:</h2>
+            <ul id="restaurantList"></ul>
+        </div>
+    </div>
+
+    <!-- Enlaza el archivo JavaScript para manejar la lógica -->
+    <script src="appResCli.js"></script>
+</body>
+</html>
+
+
+
+

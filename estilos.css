@@ -1,0 +1,66 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente */
+    background-color: #f7f7f7; /* Color de fondo claro */
+    color: #333; /* Color de texto oscuro */
+    display: flex; /* Usa Flexbox para centrar los elementos */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Hace que el cuerpo ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 300px; /* Ancho fijo para el contenedor */
+}
+
+/* Estilos para el campo de texto */
+input[type="text"] {
+    padding: 10px; /* Espaciado interno */
+    width: 80%; /* Ancho del campo de texto */
+    margin: 10px 0; /* Espaciado vertical */
+    border-radius: 4px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde sutil */
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambio de cursor al pasar sobre el botón */
+}
+
+/* Estilos para cuando el usuario pasa el mouse sobre el botón */
+button:hover {
+    background-color: #45a049; /* Cambio de color en hover */
+}
+
+/* Estilos para las secciones de clima y restaurantes */
+#weather, #restaurants {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilos para la lista de restaurantes */
+#restaurantList {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espaciado por defecto */
+}
+
+/* Estilos para los elementos de la lista de restaurantes */
+#restaurantList li {
+    padding: 10px; /* Espaciado interno */
+    background-color: #f1f1f1; /* Fondo gris claro */
+    margin-bottom: 5px; /* Espaciado inferior */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+
